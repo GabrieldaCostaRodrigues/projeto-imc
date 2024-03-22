@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    
+    
+    text-align: center;
+    background-image: url(../imagens/balança.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:white;
+   
+    
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 400px;
+    height: 487px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 80px;
+    
+}
+
+h1{
+    font-size: 2em;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+input{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.658);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 60%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+
+p#input1{
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+p#input2{
+    margin-top: 35px;
+}
+
+button{
+    width: 100%;
+    margin-top: 21%;
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    transition-duration: 0.5s;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    text-shadow: white;
+    font-weight: none;
+    cursor: pointer;
+    text-decoration: dashed;
+}
+
+
+p#res{
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer{
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
